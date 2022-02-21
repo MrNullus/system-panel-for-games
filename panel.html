@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <meta charset="utf-8" />
+        <title>Sistema de Pontuação de Games</title>
+
+        <link rel="stylesheet" href="./css/styles.css"/>
+    </head>
+    <body onload="validaAcesso()">
+
+        <main class="container">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h1>Painel de Jogos</h1>
+                    <h5>Placar</h5>
+                </div>
+
+                <panel class="body">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td class="col-nome">
+                                    Nome
+                                </td>
+                                <td class="col-estrela">
+                                    Usabilidade
+                                </td>
+                                <td class="col-estrela">
+                                    Gráfico
+                                </td>
+                                <td class="col-estrela">
+                                    Roteiro
+                                </td>
+                                <td class="col-estrela">
+                                    Geral
+                                </td>
+                                <td class="col-link">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-nome">
+                                    FlappyBird
+                                </td>
+                                <td class="col-estrela">
+                                    8
+                                </td>
+                                <td class="col-estrela">
+                                    7
+                                </td>
+                                <td class="col-estrela">
+                                    7
+                                </td>
+                                <td class="col-estrela">
+                                    8
+                                </td>
+                                <td class="col-link">
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-nome">
+                                    LOL
+                                </td>
+                                <td class="col-estrela">
+                                    12
+                                </td>
+                                <td class="col-estrela">
+                                    34
+                                </td>
+                                <td class="col-estrela">
+                                    4
+                                </td>
+                                <td class="col-estrela">
+                                    1
+                                </td>
+                                <td class="col-link">
+                                    
+                                </td>
+                            </tr>
+                        </thead>
+
+                        <tbody id="carregaDados">
+
+                        </tbody>
+                    </table>
+
+                    <br>
+
+                    <input type="button" value="Sair" onclick="sair()" class="btn btn-sucess">
+                </panel>
+            </div>
+        </main>
+
+        <script src="./src/app.js"></script>
+    </body>
+</html>
